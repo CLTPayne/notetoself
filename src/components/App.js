@@ -26,6 +26,11 @@ class App extends Component {
     bake_cookie(cookie_key, this.state.notes)
   };
 
+  clear() {
+    delete_cookie(cookie_key)
+    this.setState({ notes: [] })
+  }
+
   render() {
     return (
       <div>
@@ -42,6 +47,8 @@ class App extends Component {
             )
           })
         }
+        <hr/>
+        <Button onClick={() => this.clear()}>Clear Notes</Button>
       </div>
     )
   }
