@@ -1,6 +1,8 @@
 body {
   text-align: center;
   padding: 5%;
+  text-decoration-color: darkgrey;
+  background-color: lightgrey;
 }
 
 .note {
@@ -10,4 +12,9 @@ body {
   text-align: left;
   padding: 8px;
   margin: 30px;
+  background-color: white;
+}
+
+Button {
+  background-color: green;
 }
