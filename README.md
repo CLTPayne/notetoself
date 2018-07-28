@@ -20,7 +20,7 @@ A simple note app which allows the user to store a list of text strings as remin
 
 #### Project Goals:
 1. Explore React components
-2. Learn ES6 and understand why it is so useful in react (anoynmous functions like the fat arrow function do not create their own this object and so they are very useful for setting state in the correct context of a component)
+2. Learn ES6 and understand why it is so useful in react (anonymous functions like the fat arrow function do not create their own this object and so they are very useful for setting state in the correct context of a component)
 3. Explore testing of react components
 
 #### Build Process:
