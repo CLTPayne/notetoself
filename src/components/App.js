@@ -34,11 +34,11 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h2>Note to Self</h2>
+        <h2 className='header'>Note to Self</h2>
         <Form inline>
           <FormControl onChange={event => this.setState({ text: event.target.value }) } />
           {'  '}
-          <Button onClick={() => this.submit()}>Submit</Button>
+          <Button className='button' onClick={() => this.submit()}>Submit</Button>
         </Form>
         {
           this.state.notes.map((note, index) => {
@@ -48,7 +48,7 @@ class App extends Component {
           })
         }
         <hr/>
-        <Button onClick={() => this.clear()}>Clear Notes</Button>
+        <Button className='button' onClick={() => this.clear()}>Clear Notes</Button>
       </div>
     )
   }

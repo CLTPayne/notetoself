@@ -1,20 +1,27 @@
 body {
   text-align: center;
   padding: 5%;
-  text-decoration-color: darkgrey;
+  color: grey;
   background-color: lightgrey;
+  font-weight: bold;
 }
 
 .note {
   border: 1px solid lightgrey;
   border-radius: 5px;
-  font-style: italic;
+  font-style: bold;
   text-align: left;
   padding: 8px;
   margin: 30px;
   background-color: white;
 }
 
-Button {
-  background-color: green;
+.header {
+  font-weight: bold;
+  color: grey;
+}
+
+.button {
+  font-weight: bold;
+  color: grey;
 }
