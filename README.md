@@ -28,3 +28,5 @@ A simple note app which allows the user to store a list of text strings as remin
 2. Used ```sfcookies``` module for local storage so that the notes persist
 3. React bootstrap was used for simple form elements
 4. CSS for basic styling
+
+![Application Example](images/application_in_use.png)
