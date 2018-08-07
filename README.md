@@ -2,7 +2,7 @@
 
 ### Quickstart:
 #### How to install the code:
-1. Clone this project ```git clone https://github.com/simone-smith/notetoself.git```
+1. Clone this project ```git clone https://github.com/CLTPayne/notetoself.git```
 2. Change into the directory ```cd notetoself```
 3. Use node version 10.5.0 and have npm installed
 4. Run ```npm install``` to add module dependencies
@@ -14,6 +14,7 @@
 
 #### Run Tests:
 1. Backend-tests ```npm test```
+2. Test coverage of 83%.
 
 #### Application Purpose:
 A simple note app which allows the user to store a list of text strings as reminders, via browser cookies. When reminders are complete the user can clear the whole list in one go.
