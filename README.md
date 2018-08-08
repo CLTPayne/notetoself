@@ -1,5 +1,7 @@
 # Note to Self
 
+A single page front-end notes app using React and browser cookies to store reminders so that tasks never get forgotten again. (Yes, very original!)
+
 ### Quickstart:
 #### How to install the code:
 1. Clone this project ```git clone https://github.com/CLTPayne/notetoself.git```
@@ -31,3 +33,14 @@ A simple note app which allows the user to store a list of text strings as remin
 4. CSS for basic styling
 
 ![Application Example](images/application_in_use.png)
+
+#### User Stories:
+```
+As a person learning to code
+So that I can remember all the things I want to tackle
+I need to store text notes to myself
+
+As a person who gets stuff done
+So that I can clear a task when I've completed it
+I need to delete all the notes I made
+```
